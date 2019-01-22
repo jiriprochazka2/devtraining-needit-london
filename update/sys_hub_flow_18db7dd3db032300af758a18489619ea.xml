@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Close Overdue Tasks</description>
+        <internal_name>close_overdue_tasks</internal_name>
+        <label_cache>[{"name":"1bcda27f-320f-4367-be8a-96edfec56055.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"0140c1ca-9466-4cbf-9662-383fbc981d39.follow_up_task","label":"5➛Follow-up task","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"a29fa8e5-2d52-4764-ab87-fadc4790c519.table_name","label":"6➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a29fa8e5-2d52-4764-ab87-fadc4790c519.record","label":"6➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"4de2c77f-35e2-46e5-b827-26568643e2d4.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"852d6c04-7dab-45d2-8375-90cb3cbc6014.calculated_date","label":"2➛Calculated date","reference_display":"Calculated date","type":"string","base_type":"string"},{"name":"4f380c25-1726-4c11-9572-dfee9bc40555.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"4f380c25-1726-4c11-9572-dfee9bc40555.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a92aaeac-3993-424d-9056-67495cbe42b6.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"a92aaeac-3993-424d-9056-67495cbe42b6.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a92aaeac-3993-424d-9056-67495cbe42b6.Record.additional_assignee_list","label":"3➛NeedIt Task Record➛Additional assignee list","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_58872_needit_needit_task","column_name":"additional_assignee_list"},{"name":"44445180-cc3c-4196-b53c-6097409e484e.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Records","type":"records","base_type":"records"},{"name":"44445180-cc3c-4196-b53c-6097409e484e.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"44445180-cc3c-4196-b53c-6097409e484e.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"1bcda27f-320f-4367-be8a-96edfec56055.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"d020bdd4-2700-4342-927c-8dd8983bd75b.record","label":"5➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"d020bdd4-2700-4342-927c-8dd8983bd75b.table_name","label":"5➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"ab8645ee-b413-460a-a349-36626b3fd552.record","label":"4.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"ab8645ee-b413-460a-a349-36626b3fd552.table_name","label":"4.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"671b9626-de19-48fe-bd3b-94c8d2eb0b83.follow_up_task","label":"4.2➛Follow-up task","reference":"x_58872_needit_needit_task","reference_display":"Follow-up task","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Close Overdue Tasks</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-22 09:05:44</sys_created_on>
+        <sys_id>18db7dd3db032300af758a18489619ea</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Close Overdue Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_18db7dd3db032300af758a18489619ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-22 09:28:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=18db7dd3db032300af758a18489619ea"/>
+</record_update>
